@@ -1,3 +1,6 @@
+//@ts-check
+import { Question } from "./Question.js";
+
 export class Quiz{
     questionIndex = 0;
     score = 0;
@@ -18,6 +21,7 @@ export class Quiz{
         if(this.getQuestionIndex().correctAnswer(answer)){
             this.score++
         }
+        this.questionIndex++;
     }
 }
 
