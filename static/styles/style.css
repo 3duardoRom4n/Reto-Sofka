@@ -1,25 +1,30 @@
 html, body{
-    padding: o;
+    padding: 0;
     margin: 0;
 }
 
 body{
-    background: #272343;
+    background: white;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-image: url("../imagenes_login/28.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 1355px;    
 }
 
 #quiz {
-    background: #e3f6f5;
-    width: 30rem;
-    padding: 4rem;
-    text-align: center;
+    background: #dce0e0;
+    width: 20rem;
+    padding: 6rem;
+    text-align: center;  
+    
 }
 
 h1{
-    color: #57636e;
+    color: black;
     font-size: 3rem;
     text-align: center;
     padding: 2px 0;
@@ -27,7 +32,7 @@ h1{
 
 #question{
     font-size: 1.7rem;
-    color: #5a6772;
+    color: black;
 }
 
 .buttons {
@@ -35,11 +40,11 @@ h1{
 }
 
 .button {
-    background-color: #34a3a3;
+    background-color: aqua;
     width: 250px;
     font-size: 20px;
-    color: #fff;
-    border-radius: .3rem;
+    color: black;
+    border-radius: 5rem;
     padding: 10px 20px;
     margin: 10px 40px 10px 0px;
 }  

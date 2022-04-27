@@ -10,14 +10,11 @@ import {UI} from "./models/UI.js";
  */
 
 const renderPage = (quiz,ui) => {
-    if (quiz.isEnded()) {
-
-        
+    if (quiz.isEnded()) {        
         ui.showScores(quiz.score)
     }
     else{
         console.log(quiz)
-
     ui.showQuestion(quiz.getQuestionIndex().text);
     ui.showChoices(quiz.getQuestionIndex().choices, 
     (currentChoice) => {quiz.guess(currentChoice);
@@ -30,7 +27,6 @@ const renderPage = (quiz,ui) => {
 function main() {
     const quiz = new Quiz(questions);
     const ui = new UI();
-
     renderPage(quiz,ui)
 }
 
