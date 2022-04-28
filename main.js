@@ -1,12 +1,13 @@
 function login() {
-    var user, pass;
+  var user, pass;
 
-    user = document.getElementById("usuario").value;
-    pass = document.getElementById("contraseña").value;
+  user = document.getElementById("usuario").value;
+  pass = document.getElementById("contraseña").value;
 
-    if(user == "Eduardo" && pass == "0000" ||
-       user == "Admin" && pass == "Admin" ){
-
-        window.location="index.html";
-    }    
+  if (
+    (user == "Eduardo" && pass == "0000") ||
+    (user == "Admin" && pass == "Admin")
+  ) {
+    window.location = "index.html";
+  }
 }
