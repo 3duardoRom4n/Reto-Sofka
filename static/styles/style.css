@@ -1,6 +1,6 @@
 html, body{
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
 }
 
 body{
@@ -12,27 +12,30 @@ body{
     background-image: url("../imagenes_login/28.jpg");
     background-position: right;
     background-repeat: no-repeat;
-    background-size: 1355px;    
+    background-size: 1350px;    
 }
 
 #quiz {
     background: #dce0e0;
     width: 20rem;
-    padding: 6rem;
-    text-align: center;  
-    
+    padding: 5rem;
+    text-align: center;
+    height: 76%;
+       
 }
 
 h1{
     color: black;
     font-size: 3rem;
     text-align: center;
-    padding: 2px 0;
+    padding: 0px 0px;
+    margin-top: 0px;
 }
 
 #question{
     font-size: 1.7rem;
     color: black;
+    margin-top: 0px;    
 }
 
 .buttons {
